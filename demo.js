@@ -28,7 +28,7 @@ function likeCallback(e) {
       // sending of information to the server succeeds.
       alert("You notified the server!");
       alert(serverMessage);
-      heart.innerText = glyphStates[heart.innerText];
+      heart.innerText = glyphStates[heart.innerText]; //I like this, such a simple way of switching states!
       heart.style.color = colorStates[heart.style.color];
     })
     .catch(function(error) {
